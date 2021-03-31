@@ -1,0 +1,38 @@
+{
+  "name": "@acgsan/stats-yshop",
+  "version": "1.0.14",
+  "description": "vue plugin stats",
+  "main": "dist/stats.js",
+  "private": false,
+  "files": [
+    "/dist/*",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "release": "npm version patch && npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-shop/yshop-ystats.git"
+  },
+  "keywords": [
+    "vue",
+    "stats"
+  ],
+  "author": "yshop <dev@qq.com>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/y-shop/yshop-ystats/issues"
+  },
+  "homepage": "https://github.com/y-shop/yshop-ystats#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "cross-env": "^5.0.5",
+    "webpack": "^3.6.0"
+  }
+}
