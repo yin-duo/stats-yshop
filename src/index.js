@@ -1,6 +1,6 @@
 (function() {
   var h = document.createElement('link');
-  h.href = 'http://yshopimg.oss-cn-shanghai.aliyuncs.com/css/menu.css';
+  h.href = 'https://yshopimg.oss-cn-shanghai.aliyuncs.com/css/menu.css';
   h.setAttribute('rel','stylesheet');
   h.setAttribute('type','text/css');
 

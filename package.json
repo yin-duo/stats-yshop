@@ -1,38 +1,19 @@
 {
-  "name": "@acgsan/stats-yshop",
-  "version": "1.0.14",
-  "description": "vue plugin stats",
-  "main": "dist/stats.js",
-  "private": false,
-  "files": [
-    "/dist/*",
-    "LICENSE",
-    "README.md",
-    "package.json"
-  ],
+  "name": "stats-yshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "release": "npm version patch && npm publish --access=public"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/y-shop/yshop-ystats.git"
+    "url": "git+https://github.com/yin-duo/stats-yshop.git"
   },
-  "keywords": [
-    "vue",
-    "stats"
-  ],
-  "author": "yshop <dev@qq.com>",
-  "license": "AGPL-3.0",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/y-shop/yshop-ystats/issues"
+    "url": "https://github.com/yin-duo/stats-yshop/issues"
   },
-  "homepage": "https://github.com/y-shop/yshop-ystats#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "cross-env": "^5.0.5",
-    "webpack": "^3.6.0"
-  }
+  "homepage": "https://github.com/yin-duo/stats-yshop#readme"
 }
